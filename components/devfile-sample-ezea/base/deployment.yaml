@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-ezea
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkrw-pr712-0075-0017-tenant/tkrw-pr712-0075-0017-app/devfile-sample-ezea@sha256:b9e6ceecb14f1be6b1e6e0acace6705940360f5b9990eba67ad1e51d070dfc6f
         name: my-nodejs
         ports:
         - containerPort: 3001
